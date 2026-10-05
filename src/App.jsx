@@ -4,6 +4,9 @@ import Login from './Components/Login';
 import Signup from './Components/Signup';
 import Brainrot from "./Components/Brainrot";
 import Home from './Pages/Home';
+import Profile from './Pages/Profile';
+import Calendar from './Pages/Calendar';
+import Workouts from './Pages/Workouts';
 
 function App() {
   return (
@@ -38,6 +41,9 @@ function App() {
             <Route path="/login" element={<Login />} />
             <Route path="/signup" element={<Signup />} />
             <Route path="/brainrot" element={<Brainrot />} />
+            <Route path="/profile" element={<Profile />} />
+            <Route path="/calendar" element={<Calendar />} />
+            <Route path="/workouts" element={<Workouts />} />
           </Routes>
         </div>
       </div>
